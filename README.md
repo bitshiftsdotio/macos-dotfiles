@@ -20,7 +20,7 @@ It also includes a script which will install a base suite of software and symlin
 - Cyberduck
 - Spotify
 - Tunnelblick
-- VMWare Fusion
+- VMware Fusion
 - `wget`
 - `pyenv`
 
