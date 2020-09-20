@@ -1,0 +1,56 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Any items in the `env` entry below will be added as
+# environment variables. Some entries may override variables
+# set by alacritty itself.
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: xterm-256color
+
+window:
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 10 
+    y: 10
+
+  dynamic_padding: true
+
+  decorations: full
+
+  dynamic_title: true
+
+scrolling:
+  history: 9999
+
+# Font
+font:
+  normal:
+    family: Comic Code
+    style: Regular
+
+  bold:
+    family: Comic Code
+    style: Bold
+
+  italic:
+    family: Comic Code
+    style: Italic
+
+  bold_italic:
+    family: Comic Code
+    style: Bold Italic
+
+  size: 13
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
