@@ -16,6 +16,21 @@ function homebrew_install {
     fi
 }
 
+casks=(
+    alacritty               # Alacritty - a GPU-accelerated terminal emulator for macOS
+    jetbrains-toolbox       # JetBrains Toolbox - used to install JetBrains apps and keep them up to date
+    firefox                 # Firefox - free open source web browser
+    cyberduck               # Cyberduck - file transfer client for macOS
+    spotify                 # Spotify - for my banging tunes
+    tunnelblick             # Tunnelblick - nice OpenVPN client for macOS
+    vmware-fusion           # VMware Fusion - virtual machine hypervisor
+)
+
+packages=(
+    wget                    # wget - download files from the command line
+    pyenv                   # pyenv - Python environment manager
+)
+
 echo "❗❗❗ WARNING ❗❗❗"
 echo "This script will install all kinds of software on your computer."
 echo "If you don't want this, then you should quit now."
@@ -46,17 +61,10 @@ if [ $? -ne 0 ]; then
 fi
 
 # Install desktop apps.
-homebrew_cask_install alacritty
-homebrew_cask_install jetbrains-toolbox
-homebrew_cask_install firefox
-homebrew_cask_install cyberduck
-homebrew_cask_install spotify
-homebrew_cask_install tunnelblick
-homebrew_cask_install vmware-fusion
+homebrew_cask_install ${casks[@]}
 
 # Install command-line tools.
-homebrew_install wget
-homebrew_install pyenv
+homebrew_install ${packages[@]}
 
 echo "✅ Done!"
 
