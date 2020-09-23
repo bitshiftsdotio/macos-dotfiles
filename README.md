@@ -23,6 +23,7 @@ It also includes a script which will install a base suite of software and symlin
 - VMware Fusion
 - `wget`
 - `pyenv`
+- `tmux`
 
 ## Prerequisites
 

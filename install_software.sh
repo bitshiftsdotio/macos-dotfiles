@@ -29,6 +29,7 @@ casks=(
 packages=(
     wget                    # wget - download files from the command line
     pyenv                   # pyenv - Python environment manager
+    tmux                    # tmux - Terminal muxer
 )
 
 echo "❗❗❗ WARNING ❗❗❗"
