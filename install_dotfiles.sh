@@ -11,3 +11,10 @@ else
     ln -s "$(pwd)/alacritty.yml" ~/.config/
 fi
 
+# Install tmux configuration
+if [[ -f ~/.tmux.conf ]]; then
+    echo "- Skipping tmux installation as a config file already exists."
+else
+    echo "- Installing tmux configuration..."
+    ln -s "$(pwd)/.tmux.conf" ~/
+fi
