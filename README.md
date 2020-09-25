@@ -22,6 +22,7 @@ It also includes a script which will install a base suite of software and symlin
 - Spotify
 - Tunnelblick
 - VMware Fusion
+- Postman
 - `wget`
 - `pyenv`
 - `tmux`

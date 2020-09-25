@@ -24,6 +24,7 @@ casks=(
     spotify                 # Spotify - for my banging tunes
     tunnelblick             # Tunnelblick - nice OpenVPN client for macOS
     vmware-fusion           # VMware Fusion - virtual machine hypervisor
+    postman                 # Postman - used for API testing
 )
 
 packages=(
