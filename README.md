@@ -26,6 +26,8 @@ It also includes a script which will install a base suite of software and symlin
 - `wget`
 - `pyenv`
 - `tmux`
+- `ninja`
+- `cmake`
 
 ## Prerequisites
 

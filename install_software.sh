@@ -31,6 +31,8 @@ packages=(
     wget                    # wget - download files from the command line
     pyenv                   # pyenv - Python environment manager
     tmux                    # tmux - Terminal muxer
+    ninja                   # ninja - lightweight build system
+    cmake                   # cmake - multiplatform Makefile generator 
 )
 
 echo "❗❗❗ WARNING ❗❗❗"
